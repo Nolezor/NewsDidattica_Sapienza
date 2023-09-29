@@ -22,4 +22,4 @@ Script that takes valuable information from Sapienza's [News Didattica](https://
 
 ## License
 
-This project is licensed under the [GPL-3.0]() License - see the LICENSE.md file for details
+This project is licensed under the [GPL-3.0](https://github.com/Nolezor/NewsDidattica_Sapienza/blob/main/LICENSE.md) License - see the LICENSE.md file for details
