@@ -40,3 +40,7 @@ def scrape():
 
 def save_excel(df, name):
     df.to_excel(name)
+
+
+if __name__ == '__main__':
+    save_excel(scrape(), "tests.xlsx")

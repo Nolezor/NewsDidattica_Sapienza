@@ -79,3 +79,4 @@ fabric.properties
 *.zip
 *.dat
 *.xlsx
+testing.py
