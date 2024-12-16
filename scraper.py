@@ -20,7 +20,11 @@ def scrape():
     for element in result:
         # Every title of the list is in a <span> tag situated inside the <strong> tag
         title = element.find("strong")
-        titles_data.append(title.find("span").text.replace(" ", " ").strip())
+        print(title)
+        try:
+            titles_data.append(title.find("span").text.replace(" ", " ").strip())
+        except:
+            continue
         # --------------------------------------------------------------------------------------
         # The actual content is always written in a different style, this part covers most cases
         content = element.find("div", class_="field-content")
