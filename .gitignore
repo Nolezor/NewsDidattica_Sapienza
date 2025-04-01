@@ -79,3 +79,6 @@ fabric.properties
 *.zip
 *.dat
 *.xlsx
+uv.lock
+.env
+__pycache__
